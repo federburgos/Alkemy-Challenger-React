@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Nunito:wght@300&family=Oswald:wght@300&display=swap');
+
+.menu {
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 8;
+  background-color: black;
+}
+
+
+
+.barra{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+ 
+}
+
+ul {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  padding-top: 10px;
+  margin: auto;
+
+  li {
+    font-weight: bold;
+
+    a {
+    
+      text-decoration: none;
+      padding: 20px;
+      font-size: x-large;
+      font-family: 'Fira Sans', sans-serif;
+      color: white;
+
+      &:hover {
+        color: #0098d3;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.buscador{
+  margin: auto;
+  border-radius: 3px;
+  border: none;
+  font-size:  large;
+}
+
+@media all and (max-width:768px){
+.buscador{
+  display: none;
+}
+}

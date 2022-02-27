@@ -1,0 +1,16 @@
+@import "./colors.scss";
+//Layouts
+@import "../layouts/BasicLayout.scss";
+//Components
+@import "../components/Menu/Menu.scss";
+@import "../components/Modal/BasicModal/BasicModal.scss";
+@import "../components/Auth/LoginForm/LoginForm.scss";
+@import "../components/Blog/Blog.scss";
+@import "../components/ListBlog/ListBlog.scss";
+@import "../components/Modal/DetalleModal/DetalleModal.scss";
+@import "../components/ChangeNameForm/ChangeNameForm.scss";
+@import "../components/CrearBlog/CrearBlog.scss";
+
+//Layouts
+
+@import "../pages/index.scss";

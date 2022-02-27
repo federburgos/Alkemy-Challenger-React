@@ -1,0 +1,53 @@
+.basic-modal {
+  .header {
+    background-color: black !important;
+    display: flex !important;
+    
+.sr-only{
+  display: none;
+}
+    .close {
+      background-color: black;
+      border: none;
+      padding: 0;
+    }
+
+    
+ 
+    .titulodetalle{
+      color: $font-light;
+      margin: 0;
+    }
+  }
+}
+
+.header-game {
+  &.ui.grid {
+    margin: 0;
+  }
+
+  &__title {
+    position: relative;
+    background-color: $background-dark-absolute;
+    padding: 10px 0;
+    color: $font-light;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &__delivery {
+    text-align: center;
+    color: $primary;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+};
+
+.comida{
+  width: 50%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+

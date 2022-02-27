@@ -1,0 +1,47 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Nunito:wght@300&family=Oswald:wght@300&display=swap');
+
+.change-name-form {
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    width: 50%;
+    padding: 20px 15px;
+  
+    
+
+  > h4 {
+    color: $primary;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .form-control {
+    margin-bottom: 15px;
+    border: 1px solid $border-grey-light;
+  }
+
+  > form {
+    text-align: center;
+
+    .mensaje {
+      color: #f54021;
+      margin: 0 !important;
+      padding: 0 !important;
+      text-align: start;
+    }
+
+    .submit {
+      margin: 10px;
+      font-size: 20px;
+      transition: all 0.5s ease-out;
+
+    }
+
+    .submit:hover,
+    .submit:focus {
+      background-color: $background-light;
+      color: $background-grey-dark;
+      font-size: 20px;
+    }
+
+  }
+}

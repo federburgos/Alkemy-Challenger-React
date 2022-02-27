@@ -1,0 +1,30 @@
+.change-name-form {
+  padding: 20px 15px;
+
+  > h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: $primary;
+    font-size: 22px;
+  }
+  .form-control {
+    margin-bottom: 15px;
+    border: 1px solid $border-grey-light;
+    font-size: 16px;
+  }
+
+  > form {
+    text-align: center;
+
+    .mensaje {
+      color: #f54021;
+      margin: 0 !important;
+      padding: 0 !important;
+      text-align: start;
+    }
+
+    .submit {
+      padding: 12px 60px;
+    }
+  }
+}

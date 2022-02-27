@@ -1,0 +1,23 @@
+{
+  "name": "alkemyfedericoburgos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "formik": "^2.2.7",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "next": "10.2.0",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "17.0.2",
+    "react-toastify": "^7.0.4",
+    "sass": "^1.32.13",
+    "yup": "^0.32.9"
+  }
+}
